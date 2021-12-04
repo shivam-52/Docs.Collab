@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en" dir="ltr">
   <head>
     <title>Docs.Collab</title>
     <meta charset="utf-8" />
@@ -12,6 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/styles.css" />
+
   </head>
 
   <body>
@@ -49,23 +49,36 @@
       </div>
     </nav>
 
-    <div class="intro-content">
-      <h1>Docs.Collab</h1>
-      <p>
-        Make your workspace and collaborate by sharing documents with your
-        entire team
-      </p>
-      <h3>Features</h3>
-      <ul>
-        <li>Share documents with your team</li>
-        <li>Search for shared documents easily</li>
-        <li>Real time text editing</li>
-      </ul>
-    </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
+      <h1 class="heading">Contact Me</h1>
+      <hr>
+
+    <h3 style=" margin-left: 50px;"><u>Leave a Message/feedback</u></h3>
+    <form action="mailto:shivam.gupta8478@gmail.com" method="post" enctype="text/plain" >
+      <table class="feedback-table">
+
+      <tr>
+        <td class="feedback-td"><label>Your Name</label></td>
+        <td class="feedback-td"><input type="text" name="YourName" value=""></td>
+      </tr>
+
+      <tr>
+        <td class="feedback-td"><label>Your Email</label></td>
+        <td class="feedback-td"><input type="email" name="YourEmail" value=""></td>
+      </tr>
+
+      <tr>
+      <td class="feedback-td"><label>Your Message</label></td>
+      <td class="feedback-td"><textarea name="YourMessage" rows="5" cols="32"></textarea></td>
+      </tr>
+
+      <tr>
+        <td class="feedback-td" colspan="2" style=" text-align: center; "><input type="submit" name="" value="Submit"></td>
+      </tr>
+
+      </table>
+
+    </form>
+    <hr>
+    
   </body>
 </html>
