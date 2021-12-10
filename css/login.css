@@ -1,0 +1,62 @@
+body{
+    background: url(../login-bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;font-family: 'Montserrat', sans-serif;
+}
+.container{
+    padding: 25px;
+    background-color: rgba(231, 224, 224, 0.486); 
+    color: grey;
+    position: absolute;
+    top: 27%;
+    left: 38%;
+}
+.container h1{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    width: 50%;
+    display: block;
+    font-size: 40px;
+    border-bottom: 5px solid rgb(26, 10, 165);
+    margin: 0 auto;
+    margin-bottom: 15px;
+    padding: 13px 0;
+}
+.box{
+    width: 100%;
+    margin: 22px 0px;
+    border: 2px solid rgb(26, 10, 165);
+}
+.box input{
+    background: none;
+    width: 75%;
+    /* margin: 2px 0px; */
+    padding: 5px 10px;
+    font-size: 20px;
+    border: none;
+    outline:none;
+    color: white;
+}
+.box i{
+    width: 25px;
+    text-align: center;
+}
+.btn{
+    display: block;
+    color: grey;
+    cursor: pointer;
+    outline: none;
+    /* width: 25%; */
+    margin: 12px auto;
+    padding: 10px 21px;
+    border: 2px solid rgb(26, 10, 165);
+    border-radius: 10px;
+    font-size: 18px;
+    background: none;
+    font-weight: bold;
+}
+.btn:hover{
+    opacity: 0.5;
+    color: rgb(26, 10, 165);
+    background: white;
+}
