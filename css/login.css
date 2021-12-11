@@ -1,3 +1,7 @@
+a{
+    text-decoration: none;
+    color: inherit;
+}
 body{
     background: url(../images/login-bg.jpg) no-repeat center center fixed;
     background-size: cover;
@@ -59,4 +63,15 @@ body{
     opacity: 0.5;
     color: rgb(26, 10, 165);
     background: white;
+}
+
+.signup{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: grey;
+}
+
+.signup:hover{
+    color: rgba(255,255,255,.45);
 }
