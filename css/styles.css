@@ -3,6 +3,14 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+nav{
+  border-bottom: 1px solid whitesmoke;
+}
+
+.contents{
+  margin-left: 250px;
+  text-align: center;
+}
 
 .intro-content{
     padding-top: 150px;
@@ -27,7 +35,7 @@ body{
     padding: 100px;
 }
 
-.features ul{
+.features>ul{
     list-style: none;
     padding-left: 0;
 }
@@ -58,4 +66,11 @@ body{
 
   .footer-link:hover{
     color: rgba(255,255,255,1);
+  }
+
+  .sidebar{
+    box-sizing: border-box;
+    height: 95vh;
+    position: fixed;
+    left: 0;
   }
